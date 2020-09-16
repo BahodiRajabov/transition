@@ -1,0 +1,28 @@
+.box-1 {
+  background-color: dodgerblue;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  text-transform: uppercase;
+  color:white ;
+
+  border-radius: 10px;
+  box-shadow: 150px 150px 0px red, -150px 150px 0px gold,
+    -150px -150px 0px green, 150px -150px 0px black;
+  transition: box-shadow 0.5s ease, border-radius 0.5s ease;
+}
+.box-1:hover {
+  border-radius: 500%;
+  box-shadow: -150px 150px 0px red, -150px -150px 0px gold,
+    150px -150px 0px green, 150px 150px 0px black;
+}
+.box {
+  margin-top: 200px;
+  justify-content: center;
+  /* align-items: center; */
+
+  display: flex;
+}
